@@ -87,5 +87,5 @@
 
   //Initializing the app
   //passing the countdown date
-  App.init({day: 18, month: 2, year: 2022, hour: 11, min: 59, sec: 59});
+  App.init({day: 5, month: 12, year: 2020, hour: 0, min: 0, sec: 0});
 });
