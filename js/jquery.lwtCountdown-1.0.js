@@ -75,8 +75,10 @@
 
 		var nowTime = new Date();
 
-		diffSecs = Math.floor((targetTime.valueOf()-nowTime.valueOf())/1000);
-
+		//diffSecs = Math.floor((targetTime.valueOf()-nowTime.valueOf())/1000);
+		diffSecs = Math.floor((nowTime.valueOf() - targetTime.valueOf())/1000);
+		//diffSecs = Math.ceil((targetTime.valueOf()-nowTime.valueOf())/1000);
+		
 		$.data(this[0], 'diffSecs', diffSecs);
 
 		return diffSecs;
